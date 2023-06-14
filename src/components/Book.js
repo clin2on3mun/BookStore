@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import Button from './Button';
-import { removeBook } from '../redux/book/booksSlice';
+import { deleteBook, removeBook } from '../redux/book/booksSlice';
 
 const Book = ({
   id, title, category, author,
@@ -15,7 +15,13 @@ const Book = ({
       </p>
       <p>{author}</p>
       <p>{category}</p>
-      <Button title="delete" clickHandler={() => dispatch(removeBook(id))} />
+      <Button
+        title="delete"
+        clickHandler={() => {
+          dispatch(removeBook(id));
+          dispatch(deleteBook(id));
+        }}
+      />
     </li>
   );
 };
