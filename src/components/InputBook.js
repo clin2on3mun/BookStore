@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { addBook, postBook } from '../redux/book/booksSlice';
 
 const InputBook = () => {
-  const [data, setData] = useState({ title: '', author: '' });
+  const [data, setData] = useState({ title: '', author: '', category: 'fiction' });
   const { books } = useSelector((store) => store.book);
   const dispatch = useDispatch();
   const handleChange = (e) => {
