@@ -59,7 +59,8 @@
 
 - **[use REACT library]**
 - **[Single page Application]**
-- **[Add Navigation Links**
+- **[Add Navigation Links]**
+- **[Add styles]**
 
 
 
