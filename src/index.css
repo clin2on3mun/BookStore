@@ -1,3 +1,37 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 4%;
+  background-color: #f5f6fa;
+}
+
+#root {
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fafafa;
+}
+
+.books {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 0.938rem;
+  gap: 0.938rem;
+}
+
+.container {
+  padding: 4%;
+}
+
+.page-divider {
+  height: 0.125rem;
+  background-color: #e8e8e8;
+  width: 100%;
+  margin: 2.5rem 0 1.813rem;
+}
+
+button {
+  cursor: pointer;
 }
