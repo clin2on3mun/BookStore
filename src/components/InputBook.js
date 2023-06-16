@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { addBook, postBook } from '../redux/book/booksSlice';
+import '../styles/form.css';
 
 const InputBook = () => {
   const [data, setData] = useState({ title: '', author: '', category: 'fiction' });
@@ -41,6 +42,8 @@ const InputBook = () => {
           name="title"
           value={data.title}
           onChange={handleChange}
+          id="title"
+          className="input"
         />
         <input
           type="text"
@@ -48,8 +51,10 @@ const InputBook = () => {
           name="author"
           value={data.author}
           onChange={handleChange}
+          id="author"
+          className="input author"
         />
-        <button type="submit" onClick={handleSubmit}>submit</button>
+        <button type="submit" className="big-btn" onClick={handleSubmit}>ADD BOOK</button>
       </form>
     </div>
   );
