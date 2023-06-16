@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.book-section {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+  padding: 2rem;
+}
+
+.progress-tracker {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+
+.progress-container {
+  width: 5.625rem;
+  height: 5.625rem;
+  padding: 0.63rem 0.625rem 0.75rem 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-circle {
+  position: absolute;
+  border-radius: 50%;
+  width: 4.25rem;
+  height: 4.25rem;
+  border: 5px solid #307bbe;
+  border-left-color: #e8e8e8;
+  transform: rotate(45deg);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 11px;
+  width: 90%;
+}
+
+.othercontent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  padding-left: 5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.color {
+  color: #4386bf;
+  background-color: #fff;
+}
+
+.color-nxt {
+  color: #121212;
+  opacity: 0.5;
+}
+
+.same-font {
+  font-family: 'Roboto Slab', serif;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.font-s {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 0.813rem;
+  color: #807e7e;
+}
+
+.title {
+  font-family: 'Roboto Slab', serif;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  font-weight: bold;
+  font-size: 1.375rem;
+  letter-spacing: -0.2px;
+}
+
+.p-2 {
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.none {
+  border: none;
+}
+
+.border {
+  border: none;
+  border-right: 1px solid #e8e8e8;
+  padding-right: 2%;
+}
+
+.font-r {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-add {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.percentage {
+  font-size: 2em;
+  opacity: 1;
+  color: #121212;
+}
+
+.btn {
+  border: none;
+  background-color: #0290ff;
+  border-radius: 3px;
+  padding: 8px 24px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+
+.chapter {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+hr {
+  width: 0.125rem;
+  height: 4.375rem;
+  margin: auto;
+}
